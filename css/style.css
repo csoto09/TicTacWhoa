@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  margin: auto;
+  font-size: 35px;
+  margin: 10px;
+}
+
+.flex-container {
+  /* initialize flexbox */
+  display: flex;
+  /* center contaner horizontally */
+  justify-content: center;
+  /* center content vertically */
+  align-items: center;
+}
+
+.flex-column {
+  /* use columns instead of rows */
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+  height: 432px;
+  width: 432px;
+}
+
+.square {
+  border: 2px solid rgba(0, 0, 0, .75);
+  height: 140px;
+  width: 140px;
+}
+
+#reset-button {
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #000;
+  height: 55px;
+  width: 100px;
+  margin: 10px;
+}
